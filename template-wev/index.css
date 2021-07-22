@@ -12,7 +12,7 @@ body {
 }
 .header-list {
   font-size: 20px;
-  margin-left: 30px;
+  margin-left: 35px;
 }
 .header-list-name {
   display: flex;
@@ -24,7 +24,7 @@ body {
   font-size: 17px;
 }
 .header-list ul li {
-  padding-right: 20px;
+  padding-right: 27px;
   color: #5c5d62;
 }
 .button {
