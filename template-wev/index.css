@@ -69,14 +69,14 @@ button {
   margin-top: 35px;
 }
 .btn {
-  padding: 10px 40px;
+  padding: 8px 33px;
   margin-right: 23px;
   font-size: 16px;
-  background: coral;
+  background: #EF5F22;
   color: white;
 }
 .btn1 {
-  color: orange;
+  color: #EF5F22;
   background: white;
 }
 
@@ -102,7 +102,7 @@ button {
 
 i {
   margin-top: 17px;
-  color: orange;
+  color: #EF5F22;
   font-size: 24px;
 }
 .logo-title {
