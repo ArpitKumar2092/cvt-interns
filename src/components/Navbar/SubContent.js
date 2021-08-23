@@ -10,7 +10,7 @@ export default function Pricing() {
   const classes = useStyles();
   return (
     <React.Fragment>
-      <Container maxWidth="ls" component="main" className={classes.foot}>
+      <Container maxWidth="xl" component="main" className={classes.foot}>
         <Grid
           container
           spacing={6}

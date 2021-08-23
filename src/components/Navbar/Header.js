@@ -7,7 +7,6 @@ import Grid from "@material-ui/core/Grid";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import { useStyles } from "./Style";
-import PolymerIcon from "@material-ui/icons/Polymer";
 
 export default function Pricing() {
   const classes = useStyles();
@@ -20,8 +19,17 @@ export default function Pricing() {
             <Toolbar className={classes.toolbar}>
               <Typography variant="h6" className={classes.toolbarTitle}>
                 <Toolbar>
-                  <PolymerIcon style={{ color: "#EF5F22" }} />
-                  Innvote Ventures
+                  <i
+                    className="fa fa-foursquare"
+                    aria-hidden="true"
+                    style={{ marginTop: "20px" }}
+                  >
+                    {" "}
+                    Innovate
+                    <span style={{ marginLeft: "20px" }}>
+                      <br /> ventures
+                    </span>
+                  </i>
                   <MenuHeader />
                 </Toolbar>
               </Typography>

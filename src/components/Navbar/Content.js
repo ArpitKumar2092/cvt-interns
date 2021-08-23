@@ -8,7 +8,7 @@ import Avatar from "@material-ui/core/Avatar";
 
 const useStyles = makeStyles((theme) => ({
   heroContent: {
-    padding: theme.spacing(8),
+    padding: theme.spacing(3),
   },
 
   btn: {
@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
     color: "#FFFFFF",
     marginRight: "20px",
     boxShadow: "0 0 10px 0 rgba(0,0,0,.3)",
-    padding:"6px 17px 6px 17px"
+    padding: "6px 17px 6px 17px",
   },
 
   btn1: {
@@ -40,7 +40,7 @@ export default function Pricing() {
 
   return (
     <React.Fragment>
-      <Container maxWidth="ls" className={classes.heroContent}>
+      <Container maxWidth="xl" className={classes.heroContent}>
         <Toolbar>
           <Typography
             variant="h2"
