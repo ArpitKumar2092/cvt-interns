@@ -24,6 +24,7 @@ const useStyles = makeStyles((theme) => ({
       links: {
         background: "white",
         color: "#A3A5AA",
+        boxShadow: "0 0 10px 0 rgba(0,0,0,.5)",
       },
     foot: {
       padding: theme.spacing(5, 9, 6),
