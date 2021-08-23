@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Header from "./components/Navbar/Header";
 import Content from "./components/Navbar/Content";
-import SubContent from "./components/Navbar/SubContent";
+// import SubContent from "./components/Navbar/SubContent";
 
 
 function App() {
